@@ -1,0 +1,116 @@
+﻿body {
+    background-color: orange;
+    background-image: url("https://images2.alphacoders.com/749/thumb-1920-749693.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: orange;
+}
+
+h1 {
+    background-color: orange;
+    text-align: center;
+    color: black;
+    border-style: groove;
+    border-color: black;
+    margin: auto;
+    font-family: 'Koulen', cursive;
+}
+p {
+    background-color: orange;
+    text-align: center;
+    color: black;
+    border-style: groove;
+    border-color: black;
+    margin: auto;
+    font-family: 'Koulen', cursive;
+}
+
+nav {
+    background-color: yellow;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    width: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+div {
+    width: auto;
+    margin: 20px;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-color: lightyellow;
+    bottom: 0;
+    position: fixed;
+    font-family: 'Koulen', cursive;
+}
+
+table {
+    background-color: sandybrown;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d99d9d8b-0a39-4f7a-b561-b8ea33173646/dek334i-04cf2f41-9ee5-4ff8-91ae-fcce6b303f65.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q5OWQ5ZDhiLTBhMzktNGY3YS1iNTYxLWI4ZWEzMzE3MzY0NlwvZGVrMzM0aS0wNGNmMmY0MS05ZWU1LTRmZjgtOTFhZS1mY2NlNmIzMDNmNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fU9GpwKzYmVyE8c7Jzp4vY5MsfM0ach6omtfWnlxwBY);
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    float: left;
+    font-family: 'Koulen', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
+    width: 300px;
+    height: auto;
+}
+
+input {
+    background-color: lightgrey;
+    border: double;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 16px;
+    margin-inline: 100px;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1785093685088214678/FB9523A4C09A53DCA454DB6C482F815D9C7A4E4F/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+button {
+    background-color: lightgrey;
+    border: double;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    font-size: 16px;
+    margin-inline: 100px;
+    background-image: url("https://i.pinimg.com/736x/79/08/8f/79088f6448f133a827912f0cdd777844.jpg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h5 {
+    padding: 20px;
+    margin: auto;
+}
+
+#contactaside {
+    display: inline-block;
+    left: 40%;
+    position: fixed;
+    text-align: center;
+    bottom: 40%;
+}
