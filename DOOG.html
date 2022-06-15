@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Prueba DOM</title>
+</head>
+<body>
+    <script>
+        function gbtn() {
+
+            button.style.color = "gold";
+            button.style.background = "grey";
+
+        }
+    </script>
+
+    <div class="contenedor">
+        <h1 id="titulo">Que es DOM</h1>
+        <h2 id="subtitulo">esto es un subtitulo</h2>
+        <article id="articulo">
+            Una vez que la página termina de cargarse, el navegador genera una representación de nuestro sitio web en forma de árbol, al que llamamos el Document Object Model, o como solemos llamarlo el DOM.
+
+            El DOM le permite a JavaScript acceder, recorrer, crear, reemplazar, editar y eliminar los elementos HTML que conforman nuestra página, es una interfaz de programación estándar, esto quiere decir que está pensado como un medio de comunicación para acceder a los elementos que forman nuestro sitio web.
+
+            El DOM se ve como un árbol en el que cada hoja o rama representa un elemento de HTML, la idea de representarlo como un árbol viene de buscar representar la jerarquía de nuestros documentos, es decir, quiénes son hijos de quién, cuáles son hermanos, etc.
+        </article>
+        <button id="boton" class="btn bnt-info" onclick="gbtn()">CAMBIAR</button>
+
+    </div>
+    <script>
+        var h1 = document.getElementById("titulo");
+        console.log(h1.innerHTML);
+        h1.style.color = "blue";
+        h1.style.background = "orange";
+        var h2 = document.getElementById("subtitulo");
+        console.log(h2.innerHTML);
+        h2.style.color = "grey";
+        h2.style.background = "black";
+        parrafo = document.getElementById("articulo");
+        parrafo.style.color = "cyan";
+        parrafo.style.background = "grey";
+        console.log(articulo.innerHTML);
+        var button = document.getElementById("boton");
+        console.log(button.innerHTML);
+        button.style.color = "white";
+        button.style.background = "red";
+
+    </script>
+
+
+
+</body>
+</html>
